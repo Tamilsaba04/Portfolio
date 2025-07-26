@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #fdfcf8;
+  color: #2e2e2e;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1b3a2b;
+  color: #f0e8d9;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+nav a {
+  margin: 0 0.8rem;
+  color: #f0e8d9;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 950px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  border-left: 6px solid #d4a373;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  color: #3b3a30;
+}
+
+.card {
+  background-color: #fff;
+  border-left: 4px solid #588157;
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #1b3a2b;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card p, .card ul {
+  margin: 0.5rem 0 0 0;
+}
+
+.skill-badges {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.skill-badges li {
+  background-color: #e6ccb2;
+  color: #1b1b1b;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.95rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #1b3a2b;
+  color: #f0e8d9;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+a {
+  color: #3b5f4f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
